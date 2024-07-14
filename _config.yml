@@ -2,45 +2,33 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
-admin:
-  username: 道一生
-  password_hash:
-  secret: 6226150andtang
-
 # Site
-title: 太一学宫 #标题
-subtitle: 中道立极 皇极经世 #副标题
-description:
-  闻道易，悟道难。得道易，证道难。
-  悟道不足以得道，得道不足以证道，证道不足以穷道。
-  证道以穷之，于是乎学在矣，于是乎道在矣，于是乎性命在矣。穷理尽性，以至于命。治学即求道，道不悟则学不成。
-  后天之学，迹也。先天之学，心也。迹者形而下为器，心者形而上为道，道器不二，心迹同一。
-  鄙人不才，受先人感召，矢志于道，愿遍研一切重大文明之根本见地，综核名实，权衡偏正，叹大褒圆，中道立极，皇极经世。
-  所谓皇极者，其大中也欤！不立皇极，何以经世？不依中道，何以立极？不遍察各大文明一切圣贤教诲，何以行中庸之道？
-  为天地立心，为生民立命，为往圣继绝学，为万世开太平。我辈证道修真，当发挥往圣先贤于穆不巳、自强不息、周流不殆之精神，海纳百川，不择细流，自宰无量而终成巨浸。群经皆为我注脚，万法皆为我所用，如是方为达道。 #描述
-keywords:
-author: 道一生
-language: zh-CN #语言
-timezone: Asia/Shanghai #时区
+title: 道语织梦师·website
+subtitle: '行走于道途之上, 讲述生命的故事, 故事成为修行的一部分, 每一次叙述都是一次修行'
+description: '探索万物之理,编织心灵之梦. 我是一位行走于世间, 寻道于自然的旅人, 愿我的故事能启迪你的灵魂, 照亮你的前行之路'
+keywords: '道语织梦师,道途,修行,生命,心灵,灵魂,梦,故事,探索,启迪,万物之理, 前行,路'
+author: 道语织梦师
+language: zh-CN
+timezone: ''
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://Hermesfuxi.github.io
-root: /
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: https://hermesfuxi.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing index.html from permalinks
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
-source_dir: source  #资源文件夹，这个文件夹用来存放内容。默认值：source
-public_dir: public  #公共文件夹，这个文件夹用于存放生成的站点文件。默认值：public
-tag_dir: tags  #标签文件夹 默认值：tags
-archive_dir: archives  #归档文件夹 默认值：archives
-category_dir: categories  #分类文件夹  默认值：categories
-code_dir: downloads/code  #Include code 文件夹 默认值：downloads/code
-i18n_dir: :lang  #国际化（i18n）文件夹 默认值：:lang
-skip_render: README.md  #跳过指定文件的渲染，您可使用 [glob 表达式](https://github.com/isaacs/node-glob)来匹配路径。
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -49,18 +37,24 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude:
+  exclude: ''
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+syntax_highlighter: highlight.js
 highlight:
-  enable: true
   line_number: true
-  auto_detect: false
-  tab_replace:
-
+  auto_detect: true
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+mathjax: true
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -69,6 +63,22 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
+
+kramed:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
+
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+  template: ./search.xml
 
 # Category & Tag
 default_category: uncategorized
@@ -85,8 +95,8 @@ meta_generator: true
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
-## Use post's date for updated date unless set in front-matter
-use_date_for_updated: false
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'mtime'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -102,57 +112,12 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
-#theme: next
-
-search:
-  path: search.json
-  field: all
-  format: html
-  limit: 10000
+#theme: maupassant
+theme: butterfly
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
+## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
   repo: git@github.com:Hermesfuxi/Hermesfuxi.github.io.git
   branch: gh-pages
-
-jsonContent:
-  meta: false
-  pages: false
-  posts:
-    title: true
-    date: true
-    path: true
-    text: false
-    raw: false
-    content: false
-    slug: false
-    updated: false
-    comments: false
-    link: false
-    permalink: false
-    excerpt: false
-    categories: false
-    tags: true
-
-
-toc:
-  maxdepth: 3
-  class: toc
-  slugify: transliteration
-  decodeEntities: false
-  anchor:
-    position: after
-    symbol: '#'
-    style: header-anchor
-
-
-valine:
-  appid: PorFiq7wCyNHmz0JHRUqHax4-gzGzoHsz  #Leancloud应用的appId
-  appkey: A7dRODiqoI6aUC1FMCj6Nb4e #Leancloud应用的appKey
-  verify: false #验证码
-  notify: false #评论回复提醒
-  avatar: mm #评论列表头像样式：''/mm/identicon/monsterid/wavatar/retro/hide
-  placeholder: 有话要说？ #评论框占位符
