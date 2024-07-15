@@ -3,7 +3,7 @@
 # --------------------------------------
 
 nav:
-  logo: /images/剑仙持书而立.png # image
+  logo: /images/帆船上的剑仙.png # image
   display_title: true
   fixed: false # fixed navigation bar
 
@@ -33,9 +33,9 @@ code_word_wrap: false
 # formal:
 #   icon: link || the description || color
 social:
-  fab fa-weibo: https://weibo.com/u/5409189878 || weibo || '#24292e'
-  fab fa-zhihu: https://www.zhihu.com/people/tang-guo-xin-24 || zhihu || '#24292e'
-  fab fa-bilibili: https://space.bilibili.com/301958531 || BiliBili || '#24292e'
+  fab fa-weibo: https://weibo.com/u/5409189878 || weibo || '#b53524'
+  fab fa-zhihu: https://www.zhihu.com/people/tang-guo-xin-24 || zhihu || '#4970f2'
+  fab fa-bilibili: https://space.bilibili.com/301958531 || BiliBili || '#dc7696'
   fab fa-x-twitter: https://x.com/FuxiH40558 || x-twitter || '#24292e'
   fab fa-youtube: https://www.youtube.com/@fuxihermes8369 || youtube || '#d82100'
   fas fa-envelope: mailto:tang2472854207@outlook.com || Email || '#4a7dbe'
@@ -48,14 +48,14 @@ favicon: /images/创世神的居住地.jpeg
 
 # Avatar (頭像)
 avatar:
-  img: /images/剑仙持书而立.png
+  img: /images/帆船上的剑仙.png
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img: /images/创世神的居住地.jpeg
+index_img: /images/星海渡航-电脑壁纸.jpg
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: /images/创世神的居住地.jpeg
@@ -65,21 +65,21 @@ archive_img: /images/创世神的居住地.jpeg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img:
+tag_img: /images/创世神的居住地.jpeg
 
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img:
+tag_per_img: /images/创世神的居住地.jpeg
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img:
+category_img: /images/创世神的居住地.jpeg
 
 # The banner image of category page
 # format:
 #  - category name: xxxxx
-category_per_img:
+category_per_img: /images/创世神的居住地.jpeg
 
 cover:
   # display the cover or not (是否顯示文章封面)
@@ -223,7 +223,7 @@ aside:
   hide: false
   button: true
   mobile: true # display on mobile
-  position: left # left or right
+  position: right # left or right
   display:
     archive: true
     tag: true
@@ -584,11 +584,11 @@ microsoft_clarity:
 
 # Google Adsense (谷歌廣告)
 google_adsense:
-  enable: false
-  auto_ads: true
-  js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
-  client:
-  enable_page_level_ads: true
+  enable: true
+  auto_ads: false
+  js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1220741867883616
+  client: ca-pub-1220741867883616
+  enable_page_level_ads: false
 
 # Insert ads manually (手動插入廣告)
 # ad:
@@ -880,7 +880,7 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   field: site # site/post
   placeholder:
   blur: false
