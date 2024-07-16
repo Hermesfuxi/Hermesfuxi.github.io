@@ -131,3 +131,34 @@ abcjs:
 | highlight_shrink      | 【可选】配置代码框是否展开(true/false)(默认为设置中 highlight_shrink 的配置)         |
 | aside                 | 【可选】显示侧边栏 (默认 true)                                            |
 | abcjs                 | 【可选】加载 abcjs (当设置 abcjs 的 per_page: false 时，才需要配置，默认 false )   |
+
+
+网页插入iframe视频自适应宽高的方法
+- 不同宽度设置
+  视频IFrame嵌入：
+```javascript
+<iframe width="100%" height="540px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
+```
+- 把iframe代码放进一个叫video的div里面就ok。最大宽度和最大高度可按需要按比例修改
+```javascript
+<style>
+    .video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 800px;
+    max-height: 450px;
+    margin:0 auto;
+}
+    .video iframe,
+    .video object,
+    .video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+```
