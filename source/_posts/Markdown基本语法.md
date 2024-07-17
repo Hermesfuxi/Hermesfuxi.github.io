@@ -1,7 +1,7 @@
 ---
 title: Markdown基本语法
 tags: 技术文档
-abbrlink: 18133
+abbrlink: 5d36ff15
 date: 2020-01-22 17:52:52
 ---
 
