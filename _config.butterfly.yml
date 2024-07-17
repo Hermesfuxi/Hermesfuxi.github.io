@@ -45,7 +45,7 @@ social:
 # --------------------------------------
 
 # Favicon（浏览器标签网站图标）
-favicon: /images/创世神的居住地.jpeg
+favicon: /images/指南针LOGO.jpg
 
 # Avatar (头像)
 avatar:
@@ -61,7 +61,7 @@ index_img: /images/星海渡航.png
 # If the banner of page not setting, it will show the top_img
 default_top_img: /images/创世神的居住地.jpeg
 
-# The banner image of archive page
+# The banner image of archive page  档案页面的横幅图像
 archive_img: /images/创世神的居住地.jpeg
 
 # If the banner of tag page not setting, it will show the top_img
@@ -71,7 +71,7 @@ tag_img: /images/创世神的居住地.jpeg
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img: /images/创世神的居住地.jpeg
+tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分类页面的 top_img)
@@ -80,7 +80,7 @@ category_img: /images/创世神的居住地.jpeg
 # The banner image of category page
 # format:
 #  - category name: xxxxx
-category_per_img: /images/创世神的居住地.jpeg
+category_per_img:
 
 cover:
   # display the cover or not (是否显示文章封面)
