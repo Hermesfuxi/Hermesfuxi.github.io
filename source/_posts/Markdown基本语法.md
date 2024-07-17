@@ -1,7 +1,8 @@
 ---
 title: Markdown基本语法
-date: 2020-01-22 17:52:52
 tags: 技术文档
+abbrlink: 18133
+date: 2020-01-22 17:52:52
 ---
 
 [参考文章](https://www.jianshu.com/p/191d1e21f7ed "https://www.jianshu.com/p/191d1e21f7ed")
