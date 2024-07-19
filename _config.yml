@@ -13,10 +13,11 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://hermesfuxi.github.io/
+url: https://blog.star-sea.site/
 #permalink: :year/:month/:day/:title/
-permalink: posts/:abbrlink/
+permalink: :type/:abbrlink/
 permalink_defaults:
+  type: post
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
@@ -27,6 +28,7 @@ public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
+series_dir: series
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:

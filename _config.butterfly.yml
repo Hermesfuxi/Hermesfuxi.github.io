@@ -11,8 +11,9 @@ nav:
 menu:
   首页: / || fas fa-home
   时间轴: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
+  标签: /tags/ || fas fa-tag
+# 书籍: /books/ || fas fa-book
   资源 || fas fa-list:
     图库: /images/ || fas fa-image
     电影: /movies/ || fas fa-video
@@ -45,7 +46,7 @@ social:
 # --------------------------------------
 
 # Favicon（浏览器标签网站图标）
-favicon: /images/指南针LOGO.jpg
+favicon: /images/帆船上的剑仙.png
 
 # Avatar (头像)
 avatar:
@@ -218,7 +219,6 @@ footer:
 
 # aside (侧边栏)
 # --------------------------------------
-
 aside:
   enable: true
   hide: false
@@ -240,11 +240,16 @@ aside:
   card_announcement:
     enable: true
     content: 个人微信：tang2472854207     交友私聊请备注：姓名+身份+目的
+  card_collections:
+    enable: false
+    title: '系列合集' # 模块标题
+    icon: 'fas fa-cubes' #模块标题前的图案
+    sort_order: # Don't modify the setting unless you know how it works
   card_categories:
     enable: true
     limit: 8 # if set 0 will show all
-    expand: none # none/true/false
-    sort_order: # Don't modify the setting unless you know how it works
+    expand: true # none/true/false
+    sort_order: date # Don't modify the setting unless you know how it works
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
@@ -679,7 +684,7 @@ activate_power_mode:
 # canvas_ribbon (静止彩带背景)
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: true
+  enable: false
   size: 150
   alpha: 0.6
   zIndex: -1
@@ -818,7 +823,7 @@ fancybox: true
 # series (系列文章)
 series:
   enable: true
-  orderBy: 'title' # Order by title or date
+  orderBy: 'date' # Order by title or date
   order: 1 # Sort of order. 1, asc for ascending; -1, desc for descending
   number: true
 
