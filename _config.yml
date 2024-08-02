@@ -9,7 +9,7 @@ description: '探索宇宙之理,编织心灵之梦. 我是一位行走于世间
 keywords: 道途,修行,生命,心灵,灵魂,梦,故事,探索,启迪,万物之理,前行,路
 author: 道语星航
 language: zh-CN
-timezone: ''
+timezone:
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
