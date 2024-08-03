@@ -30,8 +30,7 @@ date: 2024-07-14 15:58:57
 <div class="info">
 
 <h1>唐国鑫</h1>
-<h3><a href="/about/resume/个人商务简历.pdf">PDF电子简历下载</a></h3>
-
+<a href="/about/resume/个人商务简历.pdf">PDF电子简历下载</a>
 </div>
 
 <div class="user-image">
@@ -41,7 +40,7 @@ date: 2024-07-14 15:58:57
 
 >**31岁|男|湖北襄阳|未婚|全日制本科（数学与应用数学系）**
 >**手机/微信：** 18986377139 | **邮箱：** tang2472854207@outlook.com
->**Github：** [github.com/Hermesfuxi](https://github.com/Hermesfuxi)   |  **个人网站：** [blog.star-sea.site/](https://blog.star-sea.site/)
+>**Github：** [github.com/Hermesfuxi](https://github.com/Hermesfuxi)   |  **个人网站：** [blog.star-sea.site](https://blog.star-sea.site)
 >**主营ABC领域：AI+BigData大数据+Cloud云原生** | **产品经理或解决方案架构师**
 > **离职学习中-可随时到岗 | 薪资面议**
 > **副业自媒体-全网统一账号|商业合作请加微信私聊**
