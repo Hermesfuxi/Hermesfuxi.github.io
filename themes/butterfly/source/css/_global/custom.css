@@ -1,0 +1,25 @@
+#post-info {
+  display: grid;
+  justify-content: center; /* 水平居中 */
+}
+#post-info #post-meta .meta-firstline {
+  display: flex;
+  justify-content: center; /* 水平居中 */
+}
+#post-info #post-meta .meta-secondline {
+  display: flex;
+  justify-content: center; /* 水平居中 */
+}
+.collections-item-content {
+  font-size: 1.3em;
+  font-weight: bolder;
+}
+.collections-item-content > a:link {
+  color: #64b2ff;
+}
+.collections-item-content > a:visited {
+  color: #64b2ff;
+}
+.collections-item-content > a:hover {
+  color: #5e7987;
+}
