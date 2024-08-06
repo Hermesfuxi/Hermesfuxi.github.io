@@ -623,6 +623,20 @@
   </url>
   
   <url>
+    <loc>https://blog.star-sea.site/tags/%E7%BE%8E%E5%9B%BD%E6%88%98%E7%95%A5/</loc>
+    <lastmod>2024-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.star-sea.site/tags/%E5%AE%97%E6%95%99%E6%B2%BB%E7%90%86/</loc>
+    <lastmod>2024-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.star-sea.site/tags/%E5%93%B2%E5%AD%A6/</loc>
     <lastmod>2024-08-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -680,20 +694,6 @@
   
   <url>
     <loc>https://blog.star-sea.site/tags/%E5%B1%B1%E6%B3%BD/</loc>
-    <lastmod>2024-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.star-sea.site/tags/%E7%BE%8E%E5%9B%BD%E6%88%98%E7%95%A5/</loc>
-    <lastmod>2024-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.star-sea.site/tags/%E5%AE%97%E6%95%99%E6%B2%BB%E7%90%86/</loc>
     <lastmod>2024-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
