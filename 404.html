@@ -37,7 +37,7 @@
     rightside: true,
   },
   autoDarkmode: false
-}</script><script id="config-diff">var GLOBAL_CONFIG_SITE={title:"页面没有找到",isPost:!1,isHome:!1,isHighlightShrink:!1,isToc:!1,postUpdate:"2024-08-02 22:12:34"}</script><script>(win=>{
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE={title:"页面没有找到",isPost:!1,isHome:!1,isHighlightShrink:!1,isToc:!1,postUpdate:"2024-08-06 17:22:14"}</script><script>(win=>{
       win.saveToLocal = {
         set: (key, value, ttl) => {
           if (ttl === 0) return
@@ -151,7 +151,7 @@ function panguInit () {
   }
 }
 
-document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-pjax"></div><script>window.addEventListener('load', () => {
+document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-pjax"></div><script src="https://unpkg.com/blueimp-md5@2.19.0/js/md5.min.js"></script><script>window.addEventListener('load', () => {
   const changeContent = (content) => {
     if (content === '') return content
 
@@ -166,55 +166,11 @@ document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-
     return content
   }
 
-  const findTrueUrl = (array) => {
-    Promise.all(array.map(item =>
-      fetch(item.url).then(resp => resp.json()).then(data => {
-        let urlArray = data.body ? data.body.match(/(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?/ig) : []
-        if (!Array.isArray(urlArray) || urlArray.length === 0) {
-          urlArray = [`${data.html_url}`]
-        }
-        if (data.user.login === 'utterances-bot') {
-          return urlArray.pop()
-        } else {
-          return urlArray.shift()
-        }
-      })
-    )).then(res => {
-        array = array.map((i,index)=> {
-          return {
-            ...i,
-            url: res[index]
-          }
-        })
-
-        saveToLocal.set('github-newest-comments', JSON.stringify(array), 10/(60*24))
-        generateHtml(array)
-    });
-  }
-
-  const getComment = () => {
-    fetch('https://api.github.com/repos/Hermesfuxi/Hermesfuxi.github.io/issues/comments?sort=updated&direction=desc&per_page=10&page=1',{
-      "headers": {
-        Accept: 'application/vnd.github.v3.html+json'
-      }
-    })
-      .then(response => response.json())
-      .then(data => {
-        const githubArray = data.map(item => {
-          return {
-            'avatar': item.user.avatar_url,
-            'content': changeContent(item.body_html || item.body),
-            'nick': item.user.login,
-            'url': item.issue_url,
-            'date': item.updated_at,
-            'githubUrl': item.html_url
-          }
-        })
-        findTrueUrl(githubArray)
-      }).catch(e => {
-        const $dom = document.querySelector('#card-newest-comments .aside-list')
-        $dom.textContent= "无法获取评论，请确认相关配置是否正确"
-      })
+  const getIcon = (icon, mail) => {
+    if (icon) return icon
+    let defaultIcon = '?d=monsterid'
+    let iconUrl = `https://gravatar.loli.net/avatar/${md5(mail.toLowerCase()) + defaultIcon}`
+    return iconUrl
   }
 
   const generateHtml = array => {
@@ -244,9 +200,41 @@ document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-
     window.pjax && window.pjax.refresh($dom)
   }
 
+  const getComment = () => {
+    const serverURL = 'https://porfiq7w.lc-cn-n1-shared.com'
+
+    var settings = {
+      "method": "GET",
+      "headers": {
+        "X-LC-Id": 'PorFiq7wCyNHmz0JHRUqHax4-gzGzoHsz',
+        "X-LC-Key": 'A7dRODiqoI6aUC1FMCj6Nb4e',
+        "Content-Type": "application/json"
+      },
+    }
+
+    fetch(`${serverURL}/1.1/classes/Comment?limit=10&order=-createdAt`,settings)
+      .then(response => response.json())
+      .then(data => {
+        const valineArray = data.results.map(function (e) {
+          return {
+            'avatar': getIcon(e.QQAvatar, e.mail),
+            'content': changeContent(e.comment),
+            'nick': e.nick,
+            'url': e.url + '#' + e.objectId,
+            'date': e.updatedAt,
+          }
+        })
+        saveToLocal.set('valine-newest-comments', JSON.stringify(valineArray), 10/(60*24))
+        generateHtml(valineArray)
+      }).catch(e => {
+        const $dom = document.querySelector('#card-newest-comments .aside-list')
+        $dom.textContent= "无法获取评论，请确认相关配置是否正确"
+      }) 
+  }
+
   const newestCommentInit = () => {
     if (document.querySelector('#card-newest-comments .aside-list')) {
-      const data = saveToLocal.get('github-newest-comments')
+      const data = saveToLocal.get('valine-newest-comments')
       if (data) {
         generateHtml(JSON.parse(data))
       } else {
