@@ -8,7 +8,7 @@
     "deploy": "hexo deploy",
     "server": "hexo server",
     "gmm": "$CONDA_HOME/envs/dashscope/python.exe generate_md_metadata.py",
-    "restart": "hexo clean && hexo g && gulp && hexo s -d",
+    "start": "hexo clean && hexo g && gulp && hexo s -d",
     "publish": "hexo clean && hexo g && gulp && hexo d"
   },
   "hexo": {
