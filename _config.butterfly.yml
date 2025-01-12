@@ -21,7 +21,7 @@ menu:
   链接: /link/ || fas fa-link
   个人 || fas fa-person:
     自我介绍: /about/ || fas fa-user
-    商务简历: /about/resume/ || fa-regular fa-file
+#    商务简历: /about/resume/ || fa-regular fa-file
 
 # Code Blocks (代码相关)
 # --------------------------------------
