@@ -34,7 +34,7 @@ date: 2024-07-14 15:58:57
 </div>
 
 <div class="user-image">
-<img src="https://mirror.ghproxy.com/https://github.com/Hermesfuxi/picx-images-hosting/raw/master/my/唐国鑫证件照片.9kg2q8e5uz.webp" alt="avatar" class='avatar'>
+<img src="https://ghfast.top/https://github.com/Hermesfuxi/picx-images-hosting/raw/master/my/唐国鑫证件照片.9kg2q8e5uz.webp" alt="avatar" class='avatar'>
 </div>
 </div>
 
