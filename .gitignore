@@ -6,3 +6,4 @@ public/
 .idea
 .github
 */.github
+/rev-manifests/

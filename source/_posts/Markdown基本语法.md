@@ -1,11 +1,18 @@
 ---
+
 title: Markdown基本语法
-tags: 技术文档
+tags: 
+  -  格式化
+  -  导航
+  - 文章类型
+  -  代码示例
+  -  图文混排
 abbrlink: 5d36ff15
 date: 2020-01-22 17:52:52
+description: 本文介绍了如何在markdown中使用各种格式，如标题层级、加粗斜体、引用、列表、表格、代码块、公式、表情以及不同主题样式。同时提到了支持的元素如图片插入、代码高亮和流程图展示。
+keywords: markdown, 关键词, 代码高亮, 三级标题, 主题样式
 ---
 
-[参考文章](https://www.jianshu.com/p/191d1e21f7ed "https://www.jianshu.com/p/191d1e21f7ed")
 
 ```
 # 这是一级标题

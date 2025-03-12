@@ -1,0 +1,5 @@
+collections:
+  - name: 名称1
+    url: '文章1url'  # url为文章渲染后的完整链接
+  - name: 名称2
+    url: '文章2url'

@@ -1,23 +1,195 @@
-- class_name: 友情链接
-  class_desc: 那些人，那些事
+- class_name: 个人自媒体矩阵 - 国内平台 - 道语星航
+  class_desc: 国内全平台主页链接 - 全网统一IP名：道语星航（包括微信、公众号、视频号等）
   link_list:
-    - name: Hexo
-      link: https://hexo.io/zh-tw/
-      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
-      descr: 快速、简单且强大的网志框架
+    - name: 知乎
+      link: https://www.zhihu.com/people/tang-guo-xin-24
+      avatar: https://n.sinaimg.cn/sinakd20220810s/261/w650h411/20220810/574c-ec748c90d9828e5c452aca3f611d0df6.png
+      descr: 中文问答社区，高质量的知识分享平台，涵盖多种领域。
 
-- class_name: 网站
-  class_desc: 值得推荐的网站
+    - name: 小红书
+      link: https://www.xiaohongshu.com/user/profile/65472c590000000006004ddd
+      avatar: https://www.xiaohongshu.com/favicon.ico
+      descr: 社交电商和生活方式分享平台，以年轻女性为主要用户群。
+
+    - name: 爱发电
+      link: https://afdian.com/u/89da6b666fbb11edaf8352540025c377
+      avatar: https://img0.baidu.com/it/u=4188098797,753197617&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500
+      descr: 让粉丝按月赞助创作者的平台
+
+    - name: 微博
+      link: https://weibo.com/u/5409189878
+      avatar: https://m.weibo.cn/favicon.ico
+      descr: 中国最大社交分享媒体平台，类似于Twitter，用于分享短消息、图片和视频。
+
+    - name: 抖音
+      link: https://www.douyin.com/user/MS4wLjABAAAA9NBQJ5vqlWDljb-vFgYNmNw9AZpl8P1_MVgWKCKS4cU
+      avatar: https://img.zcool.cn/community/019bed5a61cec8a8012113c73d3979.jpg@2o.jpg
+      descr: 短视频社交平台，用户可以上传、观看和分享15秒至1分钟的视频。
+
+    - name: 快手
+      link: https://www.kuaishou.com/profile/3xxfq2khtxeca8e
+      avatar: https://ali2.a.yximgs.com/uhead/AB/2020/04/05/10/BMjAyMDA0MDUxMDA4NTFfNDAzMDAwMDVfMl9oZDMyNF80NDg=_b.jpg
+      descr: 另一大短视频社交平台，专注于草根文化和生活记录。
+
+    - name: B站 (哔哩哔哩)
+      link: https://space.bilibili.com/301958531
+      avatar: https://i2.sinaimg.cn/gm/2014/0814/U10753P115DT20140814141245.png
+      descr: 弹幕视频分享网站，以ACG(动画、漫画、游戏)内容起家，现已多元化。
+
+    - name: 今日头条
+      link: https://www.toutiao.com/c/user/token/MS4wLjABAAAAhlHEI_WeK-K8aPP5PJRqlHiTMYs5pG4cq3HsC06TRNA
+      avatar: https://p3.bdxiguaimg.com/img/mosaic-legacy/ff1100001b4bd5621da9~0x0.image
+      descr: 新闻聚合平台，允许创作者发布文章和视频内容。
+
+    - name: 简书
+      link: https://www.jianshu.com/u/14f80f6ccaca
+      avatar: https://img2.baidu.com/it/u=1355914018,659429769&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500
+      descr: 面向文学和创意写作的在线社区，鼓励长篇深度内容。
+
+    - name: 豆瓣
+      link: https://www.douban.com/people/56923509
+      avatar: https://www.douban.com/favicon.ico
+      descr: 文艺青年聚集地，以电影、图书、音乐评论和小组讨论著称。
+
+    - name: 企鹅号
+      link: https://media.om.qq.com/author?id=M8kK0Aadub4HaD_uMOS71uzg0
+      avatar: https://img0.baidu.com/it/u=3815836657,3047426239&fm=253&fmt=auto&app=138&f=JPEG?w=243&h=243
+      descr: 腾讯旗下的内容开放平台，支持图文、视频等多种形式的内容创作。可在腾讯新闻、腾讯看点、看点快报、QQ浏览器等平台上查看
+
+    - name: 百家号
+      link: https://baijiahao.baidu.com/
+      avatar: https://img1.baidu.com/it/u=2535252693,1331102537&fm=253&fmt=auto&app=138&f=PNG?w=500&h=500
+      descr: 百度的内容开放平台，允许个人和机构发布内容，覆盖新闻、科技、娱乐等多个领域。可在百度搜索、百度浏览器、百度移动APP、百度好看视频、百度百科等平台上查看
+
+    - name: 搜狐号
+      link: https://mp.sohu.com/profile?xpt=NmYxZDI3ZDUtMWZlYS00ODNiLTk4ZjgtY2I1YTEzODQxZDJi
+      avatar: https://img0.baidu.com/it/u=3332543341,2051576412&fm=253&fmt=auto&app=138&f=JPEG?w=243&h=243
+      descr: 搜狐的内容开放平台，支持媒体、企业、个人发布原创内容。
+
+    - name: 搜狐视频
+      link: https://tv.sohu.com/user/429684692
+      avatar: https://img0.baidu.com/it/u=3332543341,2051576412&fm=253&fmt=auto&app=138&f=JPEG?w=243&h=243
+      descr: 搜狐的内容开放平台，支持媒体、企业、个人发布原创内容。
+
+    - name: 网易号
+      link: https://www.163.com/dy/media/T1699197041465.html
+      avatar: https://img2.baidu.com/it/u=1067605873,3386330745&fm=253&fmt=auto&app=138&f=JPEG?w=801&h=500
+      descr: 网易的内容开放平台，为创作者提供文章、视频等多类型内容的发布机会。
+
+    - name: 爱奇艺号
+      link: https://www.iqiyi.com/u/5171734676347584/feeds
+      avatar: https://cilicili.cn/zb_users/upload/2020/03/202003031583224766819516.jpg
+      descr: 爱奇艺视频平台
+
+    - name: 优酷号
+      link: https://www.iqiyi.com/u/5171734676347584/feeds
+      avatar: https://img1.baidu.com/it/u=829127077,491421337&fm=253&fmt=auto&app=138&f=PNG?w=243&h=243
+      descr: 优酷视频平台
+
+    - name: 大鱼号
+      link: https://dayu.com/
+      avatar: https://img0.baidu.com/it/u=2942398488,94859003&fm=253&fmt=auto&app=138&f=PNG?w=500&h=500
+      descr: 阿里文娱旗下内容创作平台，为创作者提供包括文章、图集、视频等内容的发布渠道（在UC浏览器和UC头条页面）。
+
+    - name: 快传号
+      link: https://dayu.com/
+      avatar: https://img0.baidu.com/it/u=2942398488,94859003&fm=253&fmt=auto&app=138&f=PNG?w=500&h=500
+      descr: 360自媒体平台
+
+    - name: 趣头条
+      link: https://www.qutoutiao.net/
+      avatar: https://5b0988e595225.cdn.sohucs.com/a_auto,c_cut,x_0,y_0,w_600,h_600/images/20180420/dbbd9d9af631427c95d8cbad85bb4876.png
+      descr: 面向三四线城市用户的资讯平台，提供个性化推荐服务。
+
+    - name: 一点资讯
+      link: https://www.yidianzixun.com/
+      avatar: https://www.deyicc.com/d/file/20210929095020730.jpg
+      descr: 个性化资讯推荐平台，为用户提供定制化的新闻阅读体验。
+
+- class_name: 个人自媒体矩阵 - 国外平台 - 道语星航
+  class_desc: 国外全平台主页链接
   link_list:
     - name: Youtube
-      link: https://www.youtube.com/
+      link: https://www.youtube.com/channel/UCK5hd69OvVJX2qL_gg8yD9A
       avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
-      descr: 视频网站
-    - name: Weibo
-      link: https://www.weibo.com/
-      avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png
-      descr: 中国最大社交分享平台
-    - name: Twitter
+      descr: 视频分享平台，用户可以上传、观看和分享视频内容
+
+    - name: TikTok
+      link: https://www.tiktok.com/@hermesfuxi
+      avatar: https://img0.baidu.com/it/u=2918410322,3016895517&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500
+      descr: 视频分享平台，用户可以上传、观看和分享视频内容
+
+    - name: Twitter（停用）
       link: https://twitter.com/
       avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
-      descr: 社交分享平台
+      descr: 社交分享平台，用户可以发送短消息（推文），进行实时信息交流
+
+    - name: Quora
+      link: https://www.quora.com/profile/Fuxi-Hermes-1
+      avatar: https://www.quora.com/favicon.ico
+      descr: 提问和回答平台，用户可以提出问题并从其他用户那里得到答案。
+
+    - name: Reddit
+      link: https://www.reddit.com/user/Wonderful-Fold3661/
+      avatar: https://www.redditinc.com/assets/images/site/reddit-logo.png
+      descr: 社区论坛，用户可以提交内容并参与讨论，涵盖各种主题。
+
+    - name: OnlyFans
+      link: https://onlyfans.com/hermesfuxi
+      avatar: https://www.onlyfans.com/favicon.ico
+      descr: 内容订阅服务，创作者可以为付费用户提供独家内容。
+
+    - name: Patreon
+      link: https://www.patreon.com/hermesfuxi
+      avatar: https://www.patreon.com/favicon.ico
+      descr: 创作者可以通过付费订阅模式直接从粉丝那里获得收入的平台。
+
+    - name: Medium
+      link: https://medium.com/@tang2472854207
+      avatar: https://img0.baidu.com/it/u=3764369658,1217658487&fm=253&fmt=auto&app=138&f=JPEG?w=396&h=218
+      descr: 在线出版平台，允许任何人发布文章，涵盖广泛的主题。
+
+    - name: Substack
+      link: https://substack.com/@hermesfuxi
+      avatar: https://play-lh.googleusercontent.com/RoI_bifQ0eWgWqOg4cpbx7Bm8eFkBEml42htao3-_3aZb7xWFhZPbImflNT5bV3Kfnk=w600-h300-pc0xffffff-pd
+      descr: 新闻通讯平台，让作家和出版者通过电子邮件和网站直接向订阅者分发内容。
+
+    - name: Wattpad
+      link: https://www.wattpad.com/user/hermesfuxi
+      avatar: https://img2.baidu.com/it/u=1271907905,3513488113&fm=253&fmt=auto&app=138&f=JPEG?w=622&h=500
+      descr: 面向年轻读者的故事分享平台，尤其受欢迎于小说和连载故事。
+
+    - name: Dev.to
+      link: https://dev.to/hermesfuxi
+      avatar: https://img2.baidu.com/it/u=419746350,82195672&fm=253&fmt=auto&app=138&f=JPEG?w=256&h=256
+      descr: 针对程序员和技术爱好者的博客平台，支持技术相关的文章和教程。
+
+    - name: Ghost
+      link: https://ghost.org/
+      avatar: https://ghost.org/assets/images/ghost-logo.svg
+      descr: 开源的内容管理系统，适用于建立博客和新闻网站。
+
+    - name: Blogger
+      link: https://hermesfuxi.blogspot.com/
+      avatar: https://img1.baidu.com/it/u=2222030154,2004503701&fm=253&fmt=auto&app=138&f=JPG
+      descr: Google运营的免费博客平台，适合初学者和个人博客。
+
+    - name: Tumblr
+      link: https://www.tumblr.com/hermesfuxi
+      avatar: https://bpic.588ku.com/element_origin_min_pic/00/93/91/4956f2b1454a77c.jpg
+      descr: 轻博客平台，支持短文本、图片、视频和音频等多种媒体形式。
+
+    - name: Vimeo
+      link: https://vimeo.com/user223897754
+      avatar: https://img2.baidu.com/it/u=3327230631,1736185779&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500
+      descr: 高质量视频分享平台，适合艺术家和创意工作者。
+
+    - name: Twitch
+      link: https://www.twitch.tv/hermesfuxi
+      avatar: https://static-cdn.jtvnw.net/ttv-boxart/Twitch-128x128.png
+      descr: 游戏直播平台，同时也支持非游戏类直播内容。
+
+    - name: SoundCloud
+      link: https://soundcloud.com/fuxi-hermes
+      avatar: https://img1.baidu.com/it/u=1661065018,3114441216&fm=253&fmt=auto&app=138&f=PNG?w=700&h=400
+      descr: 音乐和音频分享平台，用户可以上传和分享自己的音乐作品。

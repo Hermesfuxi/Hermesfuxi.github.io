@@ -3,22 +3,25 @@
 # --------------------------------------
 
 nav:
-  logo: /images/帆船上的剑仙.png # image
+  logo: https://mirror.ghproxy.com/https://github.com/Hermesfuxi/picx-images-hosting/raw/master/my/帆船上的剑仙.9kg2q8n4w8.webp # image
   display_title: true
-  fixed: false # fixed navigation bar
+  fixed: true # fixed navigation bar
 
 # Menu 目录: icon https://fontawesome.com/
 menu:
   首页: / || fas fa-home
   时间轴: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
+  标签: /tags/ || fas fa-tag
+# 书籍: /books/ || fas fa-book
   资源 || fas fa-list:
     图库: /images/ || fas fa-image
     电影: /movies/ || fas fa-video
     音乐: /musics/ || fas fa-music
   链接: /link/ || fas fa-link
-  关于: /about/ || fas fa-heart
+  个人 || fas fa-person:
+    自我介绍: /about/ || fas fa-user
+#    商务简历: /about/resume/ || fa-regular fa-file
 
 # Code Blocks (代码相关)
 # --------------------------------------
@@ -37,36 +40,36 @@ social:
   fab fa-weibo: https://weibo.com/u/5409189878 || weibo || '#b53524'
   fab fa-zhihu: https://www.zhihu.com/people/tang-guo-xin-24 || zhihu || '#4970f2'
   fab fa-bilibili: https://space.bilibili.com/301958531 || BiliBili || '#dc7696'
-  fab fa-x-twitter: https://x.com/FuxiH40558 || x-twitter || '#24292e'
+#  fab fa-x-twitter: https://x.com/FuxiH40558 || x-twitter || '#24292e'
   fab fa-youtube: https://www.youtube.com/@fuxihermes8369 || youtube || '#d82100'
-  fas fa-envelope: mailto:tang2472854207@outlook.com || Email || '#4a7dbe'
+#  fas fa-envelope: mailto:tang2472854207@outlook.com || Email || '#4a7dbe'
 
 # Image (图片设置)
 # --------------------------------------
 
 # Favicon（浏览器标签网站图标）
-favicon: /images/指南针LOGO.jpg
+favicon: https://mirror.ghproxy.com/https://github.com/Hermesfuxi/picx-images-hosting/raw/master/my/帆船上的剑仙.9kg2q8n4w8.webp
 
 # Avatar (头像)
 avatar:
-  img: /images/帆船上的剑仙.png
+  img: https://mirror.ghproxy.com/https://github.com/Hermesfuxi/picx-images-hosting/raw/master/my/帆船上的剑仙.9kg2q8n4w8.webp
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img: /images/星海渡航.png
+index_img: https://mirror.ghproxy.com/https://github.com/Hermesfuxi/picx-images-hosting/raw/master/wallpaper/星海渡航.1zi5m1dvxm.webp
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: /images/创世神的居住地.jpeg
+default_top_img: https://mirror.ghproxy.com/https://github.com/Hermesfuxi/picx-images-hosting/raw/master/wallpaper/创世神的居住地.2obf61yktu.webp
 
 # The banner image of archive page  档案页面的横幅图像
-archive_img: /images/创世神的居住地.jpeg
+archive_img: https://mirror.ghproxy.com/https://github.com/Hermesfuxi/picx-images-hosting/raw/master/wallpaper/创世神的居住地.2obf61yktu.webp
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子标籤页面的 top_img)
-tag_img: /images/创世神的居住地.jpeg
+tag_img: https://mirror.ghproxy.com/https://github.com/Hermesfuxi/picx-images-hosting/raw/master/wallpaper/创世神的居住地.2obf61yktu.webp
 
 # The banner image of tag page
 # format:
@@ -75,7 +78,7 @@ tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分类页面的 top_img)
-category_img: /images/创世神的居住地.jpeg
+category_img: https://mirror.ghproxy.com/https://github.com/Hermesfuxi/picx-images-hosting/raw/master/wallpaper/创世神的居住地.2obf61yktu.webp
 
 # The banner image of category page
 # format:
@@ -103,7 +106,7 @@ error_img:
 error_404:
   enable: true
   subtitle: 'Page Not Found'
-  background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
+  background: https://mirror.ghproxy.com/https://github.com/Hermesfuxi/picx-images-hosting/raw/master/my/image.3k7wliqq9j.webp
 
 post_meta:
   page: # Home Page
@@ -170,10 +173,10 @@ reward:
   enable: true
   text:
   QR_code:
-    - img: /images/webchatPay-0.png
+    - img: https://mirror.ghproxy.com/https://github.com/Hermesfuxi/picx-images-hosting/raw/master/my/webchatPay-0.syudg1uxe.webp
       link:
       text: 微信
-    - img: /images/alipay-0.png
+    - img: https://mirror.ghproxy.com/https://github.com/Hermesfuxi/picx-images-hosting/raw/master/my/alipay-0.1lbpv6i4jv.webp
       link:
       text: 支付宝
 
@@ -218,7 +221,6 @@ footer:
 
 # aside (侧边栏)
 # --------------------------------------
-
 aside:
   enable: true
   hide: false
@@ -240,11 +242,16 @@ aside:
   card_announcement:
     enable: true
     content: 个人微信：tang2472854207     交友私聊请备注：姓名+身份+目的
+  card_collections:
+    enable: false
+    title: '系列合集' # 模块标题
+    icon: 'fas fa-cubes' #模块标题前的图案
+    sort_order: # Don't modify the setting unless you know how it works
   card_categories:
     enable: true
     limit: 8 # if set 0 will show all
-    expand: none # none/true/false
-    sort_order: # Don't modify the setting unless you know how it works
+    expand: true # none/true/false
+    sort_order: date # Don't modify the setting unless you know how it works
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
@@ -411,7 +418,7 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
-  use: Gitalk # Valine,Disqus
+  use: Valine # Valine,Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -450,14 +457,17 @@ gitalk:
 
 # valine
 # https://valine.js.org
+# https://console.leancloud.cn/apps
 valine:
-  appId:  # leancloud application app id
-  appKey:  # leancloud application app key
-  avatar: monsterid # gravatar style https://valine.js.org/#/avatar
-  serverURLs:  # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+  appId:  PorFiq7wCyNHmz0JHRUqHax4-gzGzoHsz # leancloud application app id
+  appKey: A7dRODiqoI6aUC1FMCj6Nb4e # leancloud application app key
+  avatar: monsterid #  Gravatar style : mp/identicon/monsterid/wavatar/retro/hide
+  serverURLs:  https://porfiq7w.lc-cn-n1-shared.com # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg:   # valine background
   visitor: false
   option:
+    - palaceholder: 你是我一生只会遇见一次的惊喜 # Comment Box placeholder
+    - guest_info: nick #,mail,link # custom comment header
 
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
@@ -585,7 +595,7 @@ microsoft_clarity:
 
 # Google Adsense (谷歌广告)
 google_adsense:
-  enable: true
+  enable: false
   auto_ads: false
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1220741867883616
   client: ca-pub-1220741867883616
@@ -649,10 +659,10 @@ text_align_justify: false
 # Website Background (设置网站背景)
 # can set it to color or image (可设置图片 或者 颜色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: /images/宇宙背景.jpeg
+background: https://mirror.ghproxy.com/https://github.com/Hermesfuxi/picx-images-hosting/raw/master/wallpaper/创世神的居住地.2obf61yktu.webp
 
 # Footer Background
-footer_bg: /images/宇宙背景.jpeg
+footer_bg: https://mirror.ghproxy.com/https://github.com/Hermesfuxi/picx-images-hosting/raw/master/wallpaper/创世神的居住地.2obf61yktu.webp
 
 # Add mask to header or footer (为 header 或 footer 添加黑色半透遮罩)
 mask:
@@ -679,7 +689,7 @@ activate_power_mode:
 # canvas_ribbon (静止彩带背景)
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: true
+  enable: false
   size: 150
   alpha: 0.6
   zIndex: -1
@@ -750,7 +760,7 @@ blog_title_font:
 
 # The setting of divider icon (水平分隔线图标设置)  https://fontawesome.com.cn/v4/icons 查看 unicode 码
 hr_icon:
-  enable: true
+  enable: false
   icon:  '\f209' # the unicode value of Font Awesome icon, such as '\3423'
   icon-top:
 
@@ -781,16 +791,17 @@ subtitle:
   sub:
     - '行走于道途之上, 讲述生命的故事'
     - '故事成为修行的一部分, 每一次叙述都是一次修行'
+    - '我们的人生没有标准答案，以自己喜欢的方式过完这一生便是成功'
 
 # Loading Animation (加载动画)
 preloader:
-  enable: true
+  enable: false
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
-  source: 2
+  source: 1
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url: https://codebyzach.github.io/56f49c68-1a85-4c60-ab7f-2313e7f36d49
+  pace_css_url:  # https://codebyzach.github.io/56f49c68-1a85-4c60-ab7f-2313e7f36d49
 
 # wordcount (字数统计)
 # see https://butterfly.js.org/posts/ceeb73f/#字数统计
@@ -810,7 +821,7 @@ medium_zoom: false
 
 # fancybox
 # https://fancyapps.com/fancybox/
-fancybox: true
+fancybox: false
 
 # Tag Plugins settings (标籤外挂)
 # --------------------------------------
@@ -818,15 +829,15 @@ fancybox: true
 # series (系列文章)
 series:
   enable: true
-  orderBy: 'title' # Order by title or date
+  orderBy: 'date' # Order by title or date
   order: 1 # Sort of order. 1, asc for ascending; -1, desc for descending
   number: true
 
 # abcjs (乐谱渲染)
 # See https://github.com/paulrosen/abcjs
 abcjs:
-  enable: true
-  per_page: true
+  enable: false
+  per_page: false
 
 # mermaid
 # see https://github.com/mermaid-js/mermaid
@@ -893,7 +904,7 @@ pangu:
 lazyload:
   enable: true
   field: site # site/post
-  placeholder: /images/图片loading.gif
+  placeholder: /images/loading.gif
   blur: true
 
 # PWA
@@ -929,7 +940,8 @@ css_prefix: true
 # 留意: 如果你的網站根目錄不是'/',使用本地圖片時，需加上你的根目錄。例如：網站是 https://yoursite.com/blog,引用css/xx.css，則設置為<link rel="stylesheet" href="/blog/css/xx.css">
 inject:
   head:
-  # - <link rel="stylesheet" href="/xxx.css">
+    - <meta name="google-adsense-account" content="ca-pub-1220741867883616">
+    - <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1220741867883616" crossorigin="anonymous"></script>
   bottom:
   # - <script src="xxxx"></script>
   # - <script defer src="/live2d-widget/autoload.js"></script>
@@ -938,6 +950,17 @@ inject:
 # Don't modify the following settings unless you know how they work
 # 非必要请不要修改
 CDN:
+#  'jsdelivr': '//cdn.jsdelivr.net',
+#  'cdnjs': '//cdnjs.cloudflare.com',
+#  'unpkg': '//unpkg.com',
+#  'elemecdn1': '//github.elemecdn.com',
+#  'elemecdn2': '//npm.elemecdn.com',
+#  'zhihu': '//unpkg.zhimg.com',
+#  'ms-jsd': '//jsd.onmicrosoft.cn',
+#  'ms-npm': '//npm.onmicrosoft.cn ',
+#  'ms-cdnjs': '//cdnjs.onmicrosoft.cn',
+#  'bootcss': '//cdn.bootcss.com',
+
   # The CDN provider of internal scripts (主题内部 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom （lcoal 為本地加載，custom 為自定義格式，需配置 custom_format）
   # Dev version can only choose. ( dev版的主题只能设置为 local )
@@ -963,58 +986,62 @@ CDN:
 #    version:  # 插件版本號
 
   option:  #在這裏更換部分文件,會覆蓋原有的配置
-  # abcjs_basic_js:
-  # activate_power_mode:
-  # algolia_js:
-  # algolia_search:
-  # aplayer_css:
-  # aplayer_js:
-  # artalk_css:
-  # artalk_js:
-  # blueimp_md5:
-  # busuanzi:
-  # canvas_fluttering_ribbon:
-  # canvas_nest:
-  # canvas_ribbon:
-  # click_heart:
-  # clickShowText:
-  # disqusjs:
-  # disqusjs_css:
-  # docsearch_css:
-  # docsearch_js:
-  # egjs_infinitegrid:
-  # fancybox:
-  # fancybox_css:
-  # fireworks:
-  # fontawesome:
-  # gitalk:
-  # gitalk_css:
-  # giscus:
-  # instantpage:
-  # instantsearch:
-  # katex:
-  # katex_copytex:
-  # lazyload:
-  # local_search:
-  # main:
-  # main_css:
-  # mathjax:
-  # medium_zoom:
-  # mermaid:
-  # meting_js:
-  # pangu:
-  # prismjs_autoloader:
-  # prismjs_js:
-  # prismjs_lineNumber_js:
-  # pjax:
-  # sharejs:
-  # sharejs_css:
-  # snackbar:
-  # snackbar_css:
-  # translate:
-  # twikoo:
-  # typed:
-  # utils:
-  # valine:
-  # waline_css:
-  # waline_js:
+#    pjax: https://lib.baomitu.com/pjax/0.2.8/pjax.min.js
+#    lazyload: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/vanilla-lazyload/17.3.1/lazyload.iife.min.js
+#    instantpage: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/instant.page/5.1.0/instantpage.min.js
+#    fontawesomeV6: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css
+#    # abcjs_basic_js:
+#    # activate_power_mode:
+#    # algolia_js:
+#    # algolia_search:
+#    # aplayer_css:
+#    # aplayer_js:
+#    aplayer_css: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css
+#    aplayer_js: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js
+#    # blueimp_md5:
+#    # busuanzi:
+#    # canvas_fluttering_ribbon:
+#    # canvas_nest:
+#    # canvas_ribbon:
+#    # click_heart:
+#    # clickShowText:
+#    disqusjs: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/disqusjs/1.3.0/disqus.js
+#    disqusjs_css: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/disqusjs/1.3.0/disqusjs.css
+#    # docsearch_css:
+#    # docsearch_js:
+#    # egjs_infinitegrid:
+#    fancybox_css: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/fancybox/3.5.7/jquery.fancybox.min.css
+#    fancybox: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/fancybox/3.5.7/jquery.fancybox.min.js
+#    # fireworks:
+#    # fontawesome:
+#    gitalk: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/gitalk/1.7.2/gitalk.min.js
+#    gitalk_css: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/gitalk/1.7.2/gitalk.min.css
+#    # giscus:
+#    # instantpage:
+#    # instantsearch:
+#    # katex:
+#    # katex_copytex:
+#    # lazyload:
+#    # local_search:
+#    # main:
+#    # main_css:
+#    # mathjax:
+#    medium_zoom: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/medium-zoom/1.0.6/medium-zoom.min.js
+#    # mermaid:
+#    meting_js: https://cdn1.tianli0.top/npm/js-heo@1.0.12/metingjs/Meting.min.js
+#    # pangu:
+#    prismjs_js: https://cdn1.tianli0.top/npm/prismjs@1.1.0/prism.js
+#    prismjs_lineNumber_js: https://cdn1.tianli0.top/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
+#    prismjs_autoloader: https://cdn1.tianli0.top/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
+#    # pjax:
+#    sharejs: https://lib.baomitu.com/social-share.js/1.0.16/js/social-share.min.js
+#    sharejs_css: https://lib.baomitu.com/social-share.js/1.0.16/css/share.min.css
+#    snackbar_css: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.css
+#    snackbar: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.js
+#    translate: https://cdn1.tianli0.top/npm/js-heo@1.0.6/translate/tw_cn.js
+#    twikoo: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/twikoo/1.4.18/twikoo.all.min.js
+#    typed: https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/typed.js/2.0.12/typed.min.js
+#    # utils:
+#    valine: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/valine/1.4.16/Valine.min.js
+    # waline_css:
+    # waline_js:
