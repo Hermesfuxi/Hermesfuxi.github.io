@@ -151,14 +151,14 @@ encrypt: # hexo-blog-encrypt
   silent: true
   abstract: 以下是加密内容，继续阅读需要密码  # Here's something encrypted, password is required to continue reading.
   message: 您好, 这里需要密码 # Hey, password is required here.
-  tags:
-    - {name: vip1, password: vip-1=3968}
-    - {name: vip2, password: vip-2=-6561}
-    - {name: vip3, password: vip-3=*9867}
-    - {name: vip4, password: vip-4=+4538}
-    - {name: vip5, password: vip-5=@6546}
-    - {name: vip6, password: vip-6=$3102}
-    - {name: private, password: Hermesfuxi#tang^2472854207(}
+  tags: # 下列的 name 一定要加到tag的最后一行，否则不生效
+    - {name: vip1, password: vip-1=as*（439&6c8}
+    - {name: vip2, password: vip-2=-etgr82￥561}
+    - {name: vip3, password: vip-3=*98）Y@t3.67}
+    - {name: vip4, password: vip-4=+453arE^wt8-}
+    - {name: vip5, password: vip-5=@65~4elNb46/}
+    - {name: vip6, password: vip-6=$343Tr!uy023}
+    - {name: private, password: Hermesfuxi#tang^2472854207(@+)}
   wrong_pass_message: 密码无效，请检查并重试  # Oh, this is an invalid password. Check and try again, please.
   wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容 # Oh, these decrypted content cannot be verified, but you can still have a look.
 

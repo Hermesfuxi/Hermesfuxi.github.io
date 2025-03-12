@@ -9,7 +9,7 @@ tags:
 categories: 科技-数据智能-AI
 keywords: 'AI, 就业'
 cover: >-
-  https://mirror.ghproxy.com/https://github.com/Hermesfuxi/picx-images-hosting/raw/master/technology/image.60u7pkl5eu.jpg
+  https://ghfast.top/https://github.com/Hermesfuxi/picx-images-hosting/raw/master/technology/image.60u7pkl5eu.jpg
 abbrlink: 3d494e0a
 description:
 ---
