@@ -2,7 +2,7 @@
 
 > 
 
-<img src="https://github.com/Hermesfuxi/picx-images-hosting/raw/master/my/唐国鑫证件照片.9kg2q8e5uz.webp" alt="avatar">
+<img alt="avatar" src="https://github.com/Hermesfuxi/picx-images-hosting/raw/master/my/唐国鑫证件照片.9kg2q8e5uz.webp">
 
 ## 基本信息
 ### 31岁|男|湖北襄阳|未婚|`18986377139`(电话微信同号)|`tang2472854207@outlook.com`

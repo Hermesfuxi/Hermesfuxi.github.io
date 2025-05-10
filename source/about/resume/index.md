@@ -46,7 +46,6 @@ date: 2024-07-14 15:58:57
 > **副业自媒体-全网统一账号|商业合作请加微信私聊**
 
 ## 专业技能
-- **数学基础（线性代数、概率论、数值分析、微积分、统计学等）和计算机基础（计组、操作系统、网络、数据结构与算法）**
 - **编程语言**：Python、C++、Java、Scala、JavaScript、TypeScript、Golang、Linux/Shell；
 - **JavaWeb技术栈**：
   - **数据库**：MySQL（MyCat分库分表）、PostgreSQL、TiDB、OceanBase、Rocksdb、Redis、mongo、ElasticSearch、Neo4j、ArangoDB；
