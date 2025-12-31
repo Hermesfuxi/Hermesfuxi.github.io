@@ -216,7 +216,8 @@ footer:
   owner:
     enable: true
     since: 2024
-  custom_text: 行走于道途之上，讲述生命的故事，故事成为修行的一部分，每一次叙述都是一次修行
+  custom_text:
+    - 网站备案号：<a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP备2020021290号-1</a>
   copyright: true # Copyright of theme and framework
 
 # aside (侧边栏)
