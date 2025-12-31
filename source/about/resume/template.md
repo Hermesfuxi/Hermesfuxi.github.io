@@ -1,74 +1,59 @@
-# 唐国鑫
+# **唐国鑫-大数据分析挖掘简历**
 
 > 
 
 <img alt="avatar" src="https://github.com/Hermesfuxi/picx-images-hosting/raw/master/my/唐国鑫证件照片.9kg2q8e5uz.webp">
 
 ## 基本信息
-### 31岁|男|湖北襄阳|未婚|`18986377139`(电话微信同号)|`tang2472854207@outlook.com`
-
-- **主业**：ABC（AI+BigData大数据+Cloud云原生） | 解决方案架构师 | 离职随时到岗
-
-- **副业**：自媒体“道语星航”（全网统一账号名） |  商业合作请加微信私聊。
-
-**Github**： [github.com/Hermesfuxi](https://github.com/Hermesfuxi)   |  **个人网站**： [https://blog.star-sea.site/](https://blog.star-sea.site/)
+**31 岁 | 男 | 湖北襄阳 | 未婚 | 全日制本科（数学与应用数学系）**
+手机 / 微信： 18986377139 | 邮箱： tang2472854207@outlook.com
+Github： [github.com/Hermesfuxi](https://github.com/Hermesfuxi) 
 
 ## 专业技能
-- **数学基础（线性代数、概率论、数值分析、微积分、统计学等）和计算机基础（计组、操作系统、网络、数据结构与算法）**
-- **编程语言**：Python、C++、Java、Scala、JavaScript、TypeScript、Golang、Linux/Shell；
-- **JavaWeb技术栈**：
-	- **数据库**：MySQL（MyCat分库分表）、PostgreSQL、TiDB、OceanBase、Rocksdb、Redis、mongo、ElasticSearch、Neo4j、ArangoDB；
-	- **后端**：MyBatis、Spring全家桶(Springboot、SpringCloud、SpringCloud Alibaba等)、dobble；
-	- **前端**：jQuery、Bootstrap、Vue、React、AngularJS、Antd、ECharts 、BizCharts、G2、qiankun；
+- **编程语言**：Python、Java、Scala、JavaScript、TypeScript、C++、Golang、Linux/Shell；
+-  **大数据分析挖掘技术栈**：
+	- **数据分析与计算**：Excel、SQL、NumPy、Numba、Pandas、Polars、DuckDB、SciPy、Sympy、空间GIS；
+	- **数据可视化**：Matplotlib、Seaborn、Bokeh、Altair、PyEcharts、Plotly、Superset；
+	- **机器学习**：
+		- **开源组件**：scikit-learn、Spark-ML、Alink、Pytorch、TensorFlow；
+		- **算法模型**：梯度下降、KNN、Kmeans、线性回归、逻辑回归、‌朴素贝叶斯、决策树、随机森林、AdaBoost、GBDT、XGBoost、LightGBM、CatBoost、孤立森林（异常点检测）；
+
+	- **文本分析**：HanLP、jieba、词频统计TF-IDF、
+
+	- **业务分析**：
+	  - 风控建模：反欺诈规则引擎设计、信用评分卡模型（A 卡 / P 卡）、贷后风险预警模型
+	  - 精准营销：用户分群（RFM 模型 + K-means 聚类）、营销响应预测、个性化推荐算法（协同过滤 / SVD）
+	  - 实时计算：流式数据实时风控（基于 Flink 的规则引擎）、实时用户行为分析（点击流实时建模）、用户画像分析
+	
 - **大数据技术栈**：
 	- **大数据平台**：有完整的大数据平台项目设计、开发及部署经验，曾调研过开源社区和各公司的数据平台产品，且有数据治理经验；
-	- **大数据处理**：熟悉整个大数据的完整处理流程（数据的采集、清洗、预处理、存储、分析挖掘、机器学习和数据可视化等），熟悉实时/离线数仓、数据湖等架构，有丰富的数据开发经验，熟悉数仓领域的业务梳理、主题划分、模型设计、架构分层等；
-	- **熟悉大数据相关组件**：Zookeeper、Kafka、Hadoop、Spark、Flink、Hive、Presto/Trino、Hbase、Impala、Presto、Alluxio、ClickHouse、Doris、Kylin、Azkaban、Atlas、Flume、Sqoop、DolphinScheduler、xxl-job、iceberg、hudi等；
-	- **熟悉大数据相关的开源项目和相关技术工具引进**：StreamPark、dlink、Flink-CDC、ChunJun（前FlinkX）、datax、waterdrop、DataHub、superset等；
+	- **大数据架构**：熟悉整个大数据的完整处理流程（数据的采集、清洗、预处理、存储、分析挖掘、机器学习和数据可视化等），熟悉实时/离线数仓、数据湖等架构，有丰富的数据开发经验，熟悉数仓领域的业务梳理、主题划分、模型设计、架构分层等；
+	- **熟悉大数据相关组件产品**：Zookeeper、Kafka、Hadoop、Spark、Flink、Hive、Presto/Trino、Hbase、Impala、Presto、Alluxio、ClickHouse、Doris、Kylin、Azkaban、Atlas、Flume、Sqoop、DolphinScheduler、xxl-job、iceberg、hudi等；
+	- **熟悉大数据开源项目和相关技术工具引进**：StreamPark、dlink、Flink-CDC、ChunJun（前FlinkX）、datax、waterdrop、DataHub、superset等；
 	- **熟悉阿里云大数据产品**（DataHub、MaxCompute、DataWorks、RDS、QuickBI、ECS）；
 - **云原生技术栈**：
 	- **云平台**：国内云（阿里云、腾讯云、华为云、七牛云）、国外云（AWS, Azure, GCP, IBMCloud）、私有云、混合云
 	- **容器和容器编排**：docker、podman、containerd、K8s、K3s、OpenShift；
 	- **云原生平台**：Rainbond、Kubesphere、KubeVela；
 	- **DevOps**：熟悉软件工程全流程，包括规划-编码-构建-测试-部署-操作-监测、 IaC（Terraform、- CloudFormation）、CI/CD（Jenkins, GitLab）、自动化运维（Ansible、Puppet）、监控日志（Prometheus、Grafana）、性能监控（Datadog、SigNoz）、安全合规（OpenSSL）；
-- **AI 技术栈**：
-	- **数据分析**：NumPy、Pandas、SciPy、Matplotlib、
-	- **机器学习**：scikit-learn、HanLP、Alink；
-	- **深度学习**：Tensorflow、PyTorch、PaddlePaddle、CNNs、RNNs/LSTMs、Transformers (如BERT, GPT系列)、- Autoencoders、GANs、NLP（NLTK、Hugging Face Transformers）、CV（OpenCV）；
-	- **AI大模型**：AIagent
-	- **AI应用**：
-	- **AIGC**：ChatGPT、midjourney、stable-diffusion
+- **JavaWeb技术栈**：
+	- **数据库**：
+		- SQL：MySQL（MyCat分库分表）、PostgreSQL、TiDB、OceanBase、SQLite、ShardingSphere
+		- NOSQL：Rocksdb、Redis、Kvrocks、mongo、ElasticSearch、Neo4j、ArangoDB；
+	- **后端**：MyBatis、Spring全家桶(Springboot、SpringCloud、SpringCloud Alibaba等)、dobble；
+	- **前端**：jQuery、Bootstrap、Vue、React、AngularJS、Antd、ECharts 、BizCharts、G2、qiankun；
+
 - **软技能**：良好的团队合作与协调沟通能力，小规模的团队建设管理能力，分析复杂问题和提高解决方案的能力。
 
----
+
 
 ## 工作经历
 
 <div style="display: flex; justify-content: space-between;">
-    <h3>大数据技术负责人（暂定）- 杏达银通（上海）企业发展有限公司</h3> <span style="text-align: right">2022-07 - 2023-07</span>
-</div>
-
-**职责**：主要负责智慧停车项目的行业市场调研分析、相关技术咨询和商业解决方案探讨
-
-1、对当前智慧停车行业的市场现状进行梳理和研究，帮助团队确定公司在产业链中的定位为“车位信息平台”，经营模式为轻资产模式（信息资源整合模式）​。
-
-2、洞察行业趋势和消费者行为，研究行业竞争对手的商业模式和解决方案，确定其中可吸收可借鉴的部分，从而优化产品设计和服务策略，并结合公司的商业计划，制定该项目的商业模式、产品定位、解决方案。
-
-3、配合团队，参与拆分决策课题，列出课题任务清单，设计验证步骤，模拟真实用户场景，验证关键性条件假设，以支撑下一步决策。
-
-4、利用大数据相关技术，设计并搭建“智慧停车信息综合管理服务平台”，提供实时监控、预测分析和智能优化等功能，大幅提升了停车运营效率和用户体验，以供决策参考。
-
-**成就**：给团队提供行业市场信息报告，参与探讨项目方向、商业模式、团队建设、产品体系、品牌战略、运营资源、增长路径等议题，“从0到1”地设计并验证解决方案，推动技术项目落地，快速适应市场需求变化。
-
----
-
-<div style="display: flex; justify-content: space-between;">
-    <h3>大数据研发工程师/大数据产品需求解决方案- 云智慧（北京）科技有限公司</h3> <span style="text-align: right">2021-05 - 2022-06</span>
+    <h3>大数据研发工程师/大数据产品需求解决方案- 云智慧（北京）科技有限公司</h3> <span style="text-align: right">2021-05 - 至今</span>
 </div>
 
 **中国银联数据智能运营平台项目DODP：一个项目，两个角色**
-
-DODP产品已经下架，部门被解散，前身产品DOCP ([点击官网](https://www.cloudwise.com/page/docp.html))还在
 
 #### 前期角色：数据组leader（上海-研发五部）
 
@@ -76,9 +61,9 @@ DODP产品已经下架，部门被解散，前身产品DOCP ([点击官网](http
 
 **技术**：
 
-1. 设计多引擎OLAP系统高可用架构，以“ClickHouse为主，Doris为辅”的策略，形成高低搭配的OLAP技术选型。技术参考方案：[京东OLAP亿级查询高可用实践](https://www.modb.pro/db/119409) / [京东ClickHouse高可用实践](https://www.modb.pro/db/105939)
-2. 基于“湖仓一体架构”设计架构准实时数仓，技术选型为：HDFS + Iceberg + Alluxio + Presto。 业内的同类方案：[Presto+Alluxio 加速 Iceberg 数据湖访问](https://zhuanlan.zhihu.com/p/609057900)
-3. 开源工具的选型引进和定制化改造集成：Clickhouse运维工具[ckman](https://github.com/housepower/ckman)、kafka运维管控平台[KnowStreaming](https://github.com/didi/KnowStreaming)（替代KafkaManager）、调度工具[DolphinScheduler](https://github.com/apache/dolphinscheduler)（替代XXL-Job）；
+1. 设计多引擎OLAP系统高可用架构，以“Doris为中心，多种存储为辅”的策略，形成高低搭配的OLAP技术选型。
+2. 基于“湖仓一体架构”设计架构准实时数仓，技术选型为：HDFS/S3 + Paimon + Alluxio + Doris 。 
+3. 开源工具的选型引进和定制化改造集成：Doris 运维工具 DorisManager、Clickhouse运维工具[ckman](https://github.com/housepower/ckman)、kafka运维管控平台[KnowStreaming](https://github.com/didi/KnowStreaming)（替代KafkaManager）、调度工具[DolphinScheduler](https://github.com/apache/dolphinscheduler)（替代XXL-Job）；
 4. 参考腾讯Oceanus、 开源的Dlink和StreamPark，设计基于Flink的实时计算平台，实现Flink作业可视化管理，应用构建支持FlinkSQL与Flink-Jar，支持任务的多版本管理和全局UDF算子管理；
 5. 经多次实践，总结出Flink与Clickhouse的最佳交互模式『读本地表-写本地表』，并开发连接器 [flink-clickhouse-connector](https://github.com/pick-stars/flink-connector-clickhouse)实现，同时添加自动故障转移功能，解决大批量数据下clickhouse读写压力过大导致Clickhouse 连不上、写不进、读超时等问题；
 6. flink任务优化和流程设计：
